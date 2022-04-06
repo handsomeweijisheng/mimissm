@@ -1,0 +1,13 @@
+搭建SSM项目的步骤
+1)新建maven工程
+2)修改目录，修改pom.xml文件
+3)添加SSM框架的所有依赖
+4)拷贝jdbc.properties到resources目录下
+5)新建spring_dao.xml,进行数据访问层的配置
+6)新建spring_service.xml文件,进行业务逻辑层的配置
+7)新建设springmvc.xml，配置springmvc框架
+8)新建SqlMapConfig.xml文件，进行分页插件的配置
+9)使用逆向工程生成pojo和mapper文件
+10)开发业务逻辑层,实现登陆判断
+11)开发控制器AdminAction,进行登陆处理
+12)改造页面，发送登录请求，验证登录
